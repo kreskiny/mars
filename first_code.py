@@ -24,7 +24,7 @@ def promotion():
 
 @app.route('/image_mars')
 def image_mars():
-    return '''<!doctype html>
+    return f'''<!doctype html>
                 <html lang="en">
                   <head>
                     <meta charset="utf-8">
